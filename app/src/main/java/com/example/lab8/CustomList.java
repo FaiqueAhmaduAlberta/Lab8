@@ -46,7 +46,8 @@ public class CustomList extends ArrayAdapter<City> {
     }
 
     public int getCount(){
-        return cities.size();
+        return 0;
+        //return cities.size();
     }
 
     /**
@@ -67,10 +68,5 @@ public class CustomList extends ArrayAdapter<City> {
             throw new IllegalArgumentException("City does not exist in the list.");
         }
         cities.remove(city);
-    }
-
-    public int countCities() {
-        return -1;
-        //return cities.size();
     }
 }
