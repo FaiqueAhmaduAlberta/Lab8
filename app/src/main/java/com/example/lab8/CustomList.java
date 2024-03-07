@@ -63,10 +63,10 @@ public class CustomList extends ArrayAdapter<City> {
     }
 
     public void deleteCity(City city) {
-        if (!hasCity(city)) {
-            throw new IllegalArgumentException("City does not exist in the list.");
-        }
-        cities.remove(city);
+        //if (!hasCity(city)) {
+          //  throw new IllegalArgumentException("City does not exist in the list.");
+        //}
+        //cities.remove(city);
     }
 
     public int countCities() {
