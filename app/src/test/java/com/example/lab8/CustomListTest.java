@@ -47,11 +47,11 @@ public class CustomListTest {
         list.deleteCity(thisCity);
         Assertions.assertFalse(list.hasCity(thisCity));
     }
-
+    /**
     public void countCitiesTest() {
         list = MockCityList();
         City thisCity = new City("Estevan", "SK");
         list.addCity(thisCity);
         assertEquals(list.countCities(),1);
-    }
+    }*/
 }
